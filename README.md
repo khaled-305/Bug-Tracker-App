@@ -1,3 +1,8 @@
+# About the App
+
+This is a bug tracker app created with react.js. Basically you can use the app to keep a log 
+of common bugs on your project. You can filter bugs as active, ressolved and view all bugs. You can also edit, delete bugs.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

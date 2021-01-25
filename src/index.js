@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+const DATA = [
+  { id: "bug-0", name: "Import Error", resolved: true },
+  { id: "bug-1", name: "Syntax Error", resolved: false },
+  { id: "bug-2", name: "Runtime Error", resolved: false }
+];
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App bugs={DATA} />
   </React.StrictMode>,
   document.getElementById('root')
 );
